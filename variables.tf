@@ -1,10 +1,3 @@
-variable "location" {
-  description = "The location where resources will be created"
-  type        = string
-  default     = "West Europe"
-}
-
-
 #variable mysql
 variable "database_admin_login" {
   default = "mysqladminun"

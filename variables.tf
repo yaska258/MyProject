@@ -32,4 +32,10 @@ variable "admin_password" {
   default     = "W0rdpr3ss@p4ss"
 }
 
+<<<<<<< HEAD
+
+
+=======
 variable location {}
+
+>>>>>>> 1449c2c6cf17648feeba2acf8b2d37934e66cded

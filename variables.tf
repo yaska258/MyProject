@@ -32,4 +32,6 @@ variable "admin_password" {
   default     = "W0rdpr3ss@p4ss"
 }
 
-variable "location" {}
+variable "location" {
+ default     = ""
+}

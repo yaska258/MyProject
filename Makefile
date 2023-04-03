@@ -31,18 +31,22 @@ eastus-destroy:
 		terraform workspace select  eastus
 		terraform init  
 		terraform destroy -var-file envs/eastus.tfvars -auto-approve
+
 uksouth-destroy:
 		terraform workspace select  uksouth
 		terraform init    
 		terraform destroy -var-file envs/uksouth.tfvars -auto-approve
+
 africanorth-destroy:
 		terraform workspace select  africanorth
 		terraform init  
-		terraform destroy -var-file envs/africanorth.tfvars -auto-approve 		  		
+		terraform destroy -var-file envs/africanorth.tfvars -auto-approve 		 
+
 canadaeast-destroy:
 		terraform workspace select  canadaeast
 		terraform init    
 		terraform destroy -var-file envs/canadaeast.tfvars -auto-approve
+		
 norwayeast-destroy:
 		terraform workspace select  norwayeast
 		terraform init  

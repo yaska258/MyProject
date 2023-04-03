@@ -1,8 +1,7 @@
-eastus:
-		terraform workspace new  eastus  || terraform workspace select  eastus
+westeurope:
+		terraform workspace new  westeurope  || terraform workspace select  westeurope
 		terraform init  
-		terraform apply -var-file envs/eastus.tfvars -auto-approve
-
+		terraform apply -var-file envs/westeurope.tfvars -auto-approve
 
 uksouth:
 		terraform workspace new  uksouth  || terraform workspace select  uksouth
@@ -27,10 +26,12 @@ norwayeast:
 		terraform init   
 		terraform apply -var-file envs/norwayeast.tfvars -auto-approve				  
 ##########################################################################################
-eastus-destroy:
-		terraform workspace select  eastus
+
+
+westeurope-destroy:
+		terraform workspace new  westeurope  || terraform workspace select  westeurope
 		terraform init  
-		terraform destroy -var-file envs/eastus.tfvars -auto-approve
+		terraform destroy -var-file envs/westeurope.tfvars -auto-approve
 
 uksouth-destroy:
 		terraform workspace select  uksouth

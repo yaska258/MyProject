@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "wordpress" {
   name     = "example-resources"
-  location = ""
+  location = "var.location"
 }

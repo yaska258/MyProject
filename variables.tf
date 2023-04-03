@@ -31,3 +31,5 @@ variable "admin_password" {
   description = "Default password for admin account"
   default     = "W0rdpr3ss@p4ss"
 }
+
+variable "location" {}

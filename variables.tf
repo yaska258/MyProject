@@ -33,5 +33,4 @@ variable "admin_password" {
 }
 
 variable "location" {
- default     = ""
 }

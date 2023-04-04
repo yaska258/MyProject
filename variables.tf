@@ -1,3 +1,10 @@
+
+variable = "location" {
+  type = string
+  default = ""
+}
+
+
 #variable mysql
 variable "database_admin_login" {
   default = "mysqladminun"
